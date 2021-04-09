@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@font-face {
+    src: url('font/Creattion Demo.otf');
+    font-family: creattion;
+}
+
+@font-face {
+    src: url('font/Great Day Personal Use.ttf');
+    font-family: handWritting;
+}
+
+.sig {
+    font-family: creattion;
+    font-size: xx-large;
+}
+
+.handWritting {
+    font-size: xx-large;
+    font-family: handWritting;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.row {
+    margin: 0px;
+}
+
+.bgb-shade {
+    background-image: url('../img/bg/bgb-shade.svg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.enquiryPersonProfile {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.rounded-xlg {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+hr {
+    height: 0px;
+    border: 0px;
+    color: transparent;
+    position: relative;
+    height: 2px !important;
+    z-index: 1;
+}
+
+hr::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    z-index: 2;
+    border-top: 2px dashed var(--bs-primary);
+}
